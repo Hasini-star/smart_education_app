@@ -58,7 +58,7 @@ function Courses({ userEmail, onLogout, onBack }) {
             <input
               type="text"
               className="search-input"
-              placeholder="🔍 Search courses by name or description..."
+              placeholder="🔍 Search courses by name or description...."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
